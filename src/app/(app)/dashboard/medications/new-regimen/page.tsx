@@ -1,6 +1,5 @@
 // src/app/dashboard/medications/new-regimen/page.tsx
 // We will build the form component for this page next.
-// For now, just a placeholder.
 
 // import AddRegimenForm from "@/components/medications/AddRegimenForm";
 
