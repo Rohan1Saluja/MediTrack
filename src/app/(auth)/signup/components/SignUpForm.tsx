@@ -12,8 +12,8 @@ export default function SignUpForm() {
 
   React.useEffect(() => {
     if (status === "authenticated") {
-      // alert("You are already signed in");
       console.log("Session data:", session);
+      router.push("/dashboard");
     }
   }, [status, router, session]);
 
